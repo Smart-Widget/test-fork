@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "bcee532d0f15495a8d0dc82e2f858c9a",
+  "assets/AssetManifest.json": "8b784afc049907d60daa20d92f518f86",
 "assets/assets/images/forget_password.png": "d013bdde716e54d703f1f304f9a09a83",
 "assets/assets/images/icon.png": "d7f33e345d605291389371f2e299132e",
 "assets/assets/images/Logo.png": "0bc2d7f29d2467ac2d08e03e21fb2a0f",
@@ -16,9 +16,7 @@ const RESOURCES = {
 "assets/assets/svg/building.svg": "8f2ec52bc28340c7aacb412c8515a7f1",
 "assets/assets/svg/cho_xet_duyet.svg": "c7f6bd7c8bb60a5dfcf847bf09baa5da",
 "assets/assets/svg/duong_tinh.svg": "d780141f23411298b04974d11199b3c3",
-"assets/assets/svg/female.svg": "680dd626a5c33722d5b4ad1393c05b11",
 "assets/assets/svg/Location.svg": "71a7f44f526108e9c72468d70df59161",
-"assets/assets/svg/male.svg": "74a56eb1141b63f3a0492ba923f3913c",
 "assets/assets/svg/nghi_ngo.svg": "7ca2b69c05feda183e16f82f615b3b77",
 "assets/assets/svg/nghi_nhiem.svg": "d076f649b89efc9c1af87d517bcdc5cb",
 "assets/assets/svg/No_avatar.svg": "7636eaf8ef9c08f2c4b3cf6b567a16f8",
@@ -64,9 +62,9 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "29ab772e7f8fa0206c2de6e15a8ccf06",
 "icons/ms-icon-310x310.png": "3f596a6d695daf56ef6c50746a428493",
 "icons/ms-icon-70x70.png": "7a1e467be8f8ef88f82de2ea222d9a2d",
-"index.html": "3d48ef178a8e56790de0b01b0120efc3",
-"/": "3d48ef178a8e56790de0b01b0120efc3",
-"main.dart.js": "03d0620b7a9666f280f080e9d2ea71cd",
+"index.html": "d4854a25d43b732d12ae4a8eb0b4b3fd",
+"/": "d4854a25d43b732d12ae4a8eb0b4b3fd",
+"main.dart.js": "5967f6c4bc3f8b5ef0703de07b2ae282",
 "manifest.json": "731d90263539dcbbbc5279441451fbd9",
 "OneSignalSDKWorker.js": "ebb63ca15bba16b550232b0b0f66c726",
 "splash/img/dark-1x.png": "ececb4f8a3f638e484cc92e257d84512",
