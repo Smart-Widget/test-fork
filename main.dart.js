@@ -28609,15 +28609,19 @@ break}else if(J.h(p.h(o,"message"),"quarantine_room_id")!=null&&J.d(J.h(p.h(o,"m
 s=1
 break}else if(J.h(p.h(o,"message"),"quarantine_room_id")!=null&&J.d(J.h(p.h(o,"message"),"quarantine_room_id"),"This room has member that is positive")){q=new A.Z(B.m,"Ph\xf2ng n\xe0y c\xf3 ng\u01b0\u1eddi d\u01b0\u01a1ng t\xednh!",null)
 s=1
-break}else if(J.h(p.h(o,"message"),"label")!=null&&J.d(J.h(p.h(o,"message"),"label"),"Permission denied")){q=new A.Z(B.m,"Kh\xf4ng c\xf3 quy\u1ec1n c\u1eadp nh\u1eadt di\u1ec7n c\xe1ch ly!",null)
-s=1
 break}else{if(J.h(p.h(o,"message"),"quarantine_room_id")!=null)p=J.d(J.h(p.h(o,"message"),"quarantine_room_id"),"PRESENT quarantine history exist")||J.d(J.h(p.h(o,"message"),"quarantine_room_id"),"PRESENT quarantine history not exist")||J.d(J.h(p.h(o,"message"),"quarantine_room_id"),"Many PRESENT quarantine history exist")
 else p=!1
 if(p){q=new A.Z(B.m,"L\u1ed7i l\u1ecbch s\u1eed c\xe1ch ly!",null)
 s=1
 break}else{q=new A.Z(B.m,"C\xf3 l\u1ed7i x\u1ea3y ra!",null)
 s=1
-break}}else{q=new A.Z(B.m,"C\xf3 l\u1ed7i x\u1ea3y ra!",null)
+break}}else if(J.d(p.h(o,"error_code"),401))if(p.h(o,"message")!=null&&J.d(p.h(o,"message"),"Permission denied")){q=new A.Z(B.m,"Kh\xf4ng c\xf3 quy\u1ec1n th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng n\xe0y!",null)
+s=1
+break}else if(J.h(p.h(o,"message"),"label")!=null&&J.d(J.h(p.h(o,"message"),"label"),"Permission denied")){q=new A.Z(B.m,"Kh\xf4ng c\xf3 quy\u1ec1n c\u1eadp nh\u1eadt di\u1ec7n c\xe1ch ly!",null)
+s=1
+break}else{q=new A.Z(B.m,"C\xf3 l\u1ed7i x\u1ea3y ra!",null)
+s=1
+break}else{q=new A.Z(B.m,"C\xf3 l\u1ed7i x\u1ea3y ra!",null)
 s=1
 break}}case 1:return A.v(q,r)}})
 return A.w($async$alI,r)},
@@ -115172,7 +115176,7 @@ if(j==null)j=A.bt(p,new A.b1j(f))}i=f.a.x!==B.S&&f.fr!==5
 h=A.cL(a1).dd(c)?B.al:B.ah
 g=t.p
 j=A.b([o,n,m,A.cm(new A.b1k(),i,"Ch\u1ecdn ph\xf2ng",new A.b1l(),p,e,"Ph\xf2ng",a1.n(l).f.a.b-A.b7(e,e,!0,e,e,e,1,e,e,e,!1,e,e,e,e,e,!0,e,e,e,e,e,e,e,e,1,e).k2.b-a1.n(l).f.f.b-a1.n(l).f.f.d-100,h,new A.b1m(f),q,"Ph\xf2ng",r,j,!1,!0,f.r,k)],g)
-if(A.a(f.x,b).fx.a.a==="")j.push(A.k(B.B,A.ko(A.cJ(e,A.J("G\u1ee3i \xfd ch\u1ecdn ph\xf2ng",e,e,e,e,e,A.a5(e,e,$.rQ(),e,e,e,e,e,e,e,e,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e,e),B.w,!1,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,new A.b1n(f),e,e,e,e,e,e),B.dg,e,e,e,e),B.d,e,e,e,e,e,e,B.OR,e,e,e,e))
+if(A.a(f.x,b).fx.a.a===""&&f.fr!==5)j.push(A.k(B.B,A.ko(A.cJ(e,A.J("G\u1ee3i \xfd ch\u1ecdn ph\xf2ng",e,e,e,e,e,A.a5(e,e,$.rQ(),e,e,e,e,e,e,e,e,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e,e),B.w,!1,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,new A.b1n(f),e,e,e,e,e,e),B.dg,e,e,e,e),B.d,e,e,e,e,e,e,B.OR,e,e,e,e))
 r=$.bmu()
 q=A.bt(r,new A.b1p(f))
 p=f.a.x!==B.S
