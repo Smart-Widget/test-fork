@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "47f037868723c0eb38b9bccbe59990b7",
+  "assets/AssetManifest.json": "511cdb19c4857a2df89320b4f8fce71b",
 "assets/assets/images/ExcelExport.png": "1cf4a1543de50d072e74dba6ae248046",
 "assets/assets/images/forget_password.png": "d013bdde716e54d703f1f304f9a09a83",
 "assets/assets/images/icon.png": "d7f33e345d605291389371f2e299132e",
@@ -14,6 +14,9 @@ const RESOURCES = {
 "assets/assets/images/otp.png": "ded9f9d844bd0e25d4ae1dd6b0179a51",
 "assets/assets/images/sign_in.png": "c21342039eaf092cc968103715b8ab28",
 "assets/assets/images/sign_up.png": "701d52bb3144b3806d3afe2e484992c9",
+"assets/assets/maps/diaphanhuyen.geojson": "bf60ab509f7f812195ecc161d088ed3a",
+"assets/assets/maps/diaphantinh.geojson": "0856864a423c9d13c157b24075eaedee",
+"assets/assets/maps/vietnam.json": "ab39522ba56ad99d7e9756be36b514ab",
 "assets/assets/svg/binh_thuong.svg": "ccd3920d59b22fad96e26ba692d83c31",
 "assets/assets/svg/building.svg": "8f2ec52bc28340c7aacb412c8515a7f1",
 "assets/assets/svg/cho_xet_duyet.svg": "c7f6bd7c8bb60a5dfcf847bf09baa5da",
@@ -70,9 +73,9 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "29ab772e7f8fa0206c2de6e15a8ccf06",
 "icons/ms-icon-310x310.png": "3f596a6d695daf56ef6c50746a428493",
 "icons/ms-icon-70x70.png": "7a1e467be8f8ef88f82de2ea222d9a2d",
-"index.html": "4351706e4e3ee3b45ea7efa0eea20f74",
-"/": "4351706e4e3ee3b45ea7efa0eea20f74",
-"main.dart.js": "9db845eccf182775c1813d1b09d60709",
+"index.html": "1ad30ddc6b8a37d74048538d9f3849f5",
+"/": "1ad30ddc6b8a37d74048538d9f3849f5",
+"main.dart.js": "ab4cd1c57f821a59889a554a340a16f8",
 "manifest.json": "731d90263539dcbbbc5279441451fbd9",
 "OneSignalSDKWorker.js": "7ff0485cee1f7099162a18fe12b8b8a3",
 "splash/img/dark-1x.png": "ececb4f8a3f638e484cc92e257d84512",
