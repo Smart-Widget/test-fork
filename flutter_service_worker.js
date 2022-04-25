@@ -3,7 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "511cdb19c4857a2df89320b4f8fce71b",
+  "app.js": "690dbbe6ea12c9777d3d4d1c4981887c",
+"assets/AssetManifest.json": "511cdb19c4857a2df89320b4f8fce71b",
 "assets/assets/images/ExcelExport.png": "1cf4a1543de50d072e74dba6ae248046",
 "assets/assets/images/forget_password.png": "d013bdde716e54d703f1f304f9a09a83",
 "assets/assets/images/icon.png": "d7f33e345d605291389371f2e299132e",
@@ -73,8 +74,8 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "29ab772e7f8fa0206c2de6e15a8ccf06",
 "icons/ms-icon-310x310.png": "3f596a6d695daf56ef6c50746a428493",
 "icons/ms-icon-70x70.png": "7a1e467be8f8ef88f82de2ea222d9a2d",
-"index.html": "4c6cabd1aa236f7d5291b58f10b6bd89",
-"/": "4c6cabd1aa236f7d5291b58f10b6bd89",
+"index.html": "51385d01a0700593ef8bc5b27e984d69",
+"/": "51385d01a0700593ef8bc5b27e984d69",
 "main.dart.js": "7e7e0ea761deef80565076610ad326c2",
 "manifest.json": "731d90263539dcbbbc5279441451fbd9",
 "OneSignalSDKWorker.js": "7ff0485cee1f7099162a18fe12b8b8a3",
