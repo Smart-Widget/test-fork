@@ -1,6 +1,6 @@
-# QLKCL Project (Web)
+# This archive has been archived. I moved it to the new repo here https://github.com/QLKCL/QLKCL_Web
 
-QLKCL Web
+## QLKCL Web
 
 
 This website is built using Flutter Framework (Source code is in [QLKCL_Mobile_Flutter Repository](https://github.com/lesonlhld/QLKCL_Mobile_Flutter))
